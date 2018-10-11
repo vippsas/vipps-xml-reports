@@ -1,4 +1,4 @@
-# Vipps xml report 
+# Vipps XML reports 
 
 This repository contains schemas and example files for Vipps XML settlement reports.
 
@@ -6,7 +6,7 @@ The new settlement report schema v3.0 can be found in the schemas/ directory tog
 
 Example files following schema v3.0 are included in the examples/ directory.
 
-# Changelogs
+# Changelog
 
 ## Changes to Vipps settlement report XML schema v2.0 to v3.0
     
