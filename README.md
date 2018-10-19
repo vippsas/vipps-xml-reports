@@ -1,4 +1,11 @@
-# Vipps XML reports 
+# Vipps XML reports
+
+The contents of this repository has moved to
+[Settlements](https://github.com/vippsas/vipps-developers/tree/master/settlements)
+
+The old content is kept here, for reference.
+
+## Old contents, for reference
 
 This repository contains schemas and example files for Vipps XML settlement reports.
 
@@ -6,17 +13,17 @@ The new settlement report schema v3.0 can be found in the [schemas](schemas) dir
 
 Example files following schema v3.0 are included in the [examples](examples) directory.
 
-# Changelog
+### Changelog
 
-## Changes to Vipps settlement report XML schema v2.0 to v3.0
-    
+#### Changes to Vipps settlement report XML schema v2.0 to v3.0
+
 NB! New settlements will contain a mix of captures and refunds.
 To make the numbers unambiguous we have introduced new fields
 for capture and refund but kept gross and net fields as before.
 
 - Schema changes from v2.0 to v3.0:
-    - Old schema url for v2.0 was http://vipps.dnb.no/XMLSchema/SettlementReport.xsd
-    - New schema url is http://vipps.no/xmlschema/SettlementReport-3.0.xsd
+    - Old schema URL for v2.0 was http://vipps.dnb.no/XMLSchema/SettlementReport.xsd
+    - New schema URL is http://vipps.no/xmlschema/SettlementReport-3.0.xsd
     - New schema validates all amount fields with new types "money", "positiveMoney", and "negativeMoney"
     - Other changed organized by parent element below
 
@@ -62,4 +69,3 @@ for capture and refund but kept gross and net fields as before.
 - Changes to VippsInfo:
     - Change type of WebSite from xs:NCName to xs:anyURI
     - Change type of Country from xs:NCName to xs:string
-
